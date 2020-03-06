@@ -1,0 +1,183 @@
+
+@font-face {
+    font-family: "Santio\ Bold";
+    src: url("../font/santio/SANTIO/TTF/Santio\ Bold.ttf");
+  }
+
+  @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+  @import url('https://fonts.googleapis.com/css?family=Mr+Dafoe&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Santio Bold;
+}
+
+.cleo {
+    background-image: url(../img/cleo-topper.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cleo h2 {
+    color: white;
+    font-size: 4em;
+    margin-top: 80px;
+}
+
+.cleo h2, p {
+    margin-left: 60px;
+}
+
+.heart {
+    display: flex;
+    align-items: center;
+    margin-left: 85%;
+}
+
+.heart img {
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+    padding: 5px;
+    transition: margin 300ms;
+}
+
+.heart span {
+    text-decoration: underline;
+    color: white;
+}
+
+#scroll {
+    color: #e7bc0e;
+    margin-bottom: 300px;
+    font-family: 'Mr Dafoe', cursive;
+}
+
+.text {
+    color: #6bc1a3;
+    font-size: 1.5em;
+    margin-bottom: 500px;
+}
+
+.kids {
+    background-image: url(../img/kid.png);
+    height: 900px;
+    background-size: cover;
+}
+
+.donate a {
+    color: white;
+    width: 100%;
+    border: 2px solid white;
+    background-color: black;
+    display: inline-block;
+    margin: 0 auto;
+    width: 15vw;
+    font-family: "comfortaa";
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 15px;
+    text-align: center;
+    box-shadow: 3px 3px 6px black;
+}
+
+.workers img {
+    height: 80px;
+    width: 80px;
+    margin-top: 55px;
+}
+
+.workers {
+    margin-left: 400px;
+}
+
+.workers p {
+    color: #e7bc0e;
+    margin: 0;
+}
+
+.pay img {
+    height: 80px;
+    width: 80px;
+    margin-top: 55px;
+}
+
+.pay {
+    margin-left: 400px;
+}
+
+.pay p {
+    color: #cb91b6;
+    margin: 0;
+}
+
+.health img {
+    height: 80px;
+    width: 80px;
+    margin-top: 55px;
+}
+
+.health {
+    margin-left: 400px;
+    margin-bottom: 250px;
+}
+
+.health p {
+    color: #6bc1a3;
+    margin: 0;
+}
+
+.donate {
+    height: 500px;
+    background-color: black;
+    color: white;
+}
+
+.highlight {
+    color: white;
+    background-color: grey;
+}
+
+.text, .unsung {
+    hyphens: auto;
+    text-align: justify;
+    margin-left: 400px;
+    margin-right: 90px;
+    line-height: 1.5em;
+}
+
+.unsung {
+    font-size: 1.5em;
+    color: #7eb8e1;
+    padding-bottom: 50px;
+}
+
+.big {
+    font-size: 2.5em;
+}
+
+.donate {
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.donate h1 {
+    margin-top: 0;
+    font-size: 2em;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.donate a {
+    margin-top: 50px;
+}
+
+.donate p {
+    padding-left: 800px;
+    margin-top: 80px;
+}
